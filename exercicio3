@@ -1,0 +1,13 @@
+#!/bin/bash
+# exercicio3 - script que exibe o nome da máquina e suas configurações de rede
+# Autora: Raquel Kuntz Oliveira
+
+# O hostname exibe o nome da máquina
+echo "Nome da máquina:"
+hostname
+echo
+
+# O ip addr exibe as configurações de rede da máquina
+echo "Configurações de rede da máquina:"
+ip addr
+

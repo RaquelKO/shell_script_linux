@@ -1,0 +1,18 @@
+#!/bin/bash
+# exercicio 4 - script que exibe o nome dos usuários logados com os comandos w, who e whoami
+# Autora: Raquel Kuntz Oliveira
+
+# O whoami exibe o nome do usuário que está logado atualmente
+echo "Usuário logado atualmente:"
+whoami
+echo
+
+# O who exibe uma lista dos usuários que fizeram login no Linux
+echo "Lista de usuários logados atualmente:"
+who
+echo
+
+# O w retorna informações mais detalhadas dos usuários que já logaram
+echo "Lista de usuários logados atualmente com informações detalhadas:"
+w
+

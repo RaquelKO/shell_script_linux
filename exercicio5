@@ -1,0 +1,19 @@
+#!/bin/bash
+# exercicio 5 - script que limpa a tela, pergunta ao usuário se ele deseja saber a data atual, se sim, apresenta a seguinte mensagem em tela: "A data atual é:". Caso o usuário escolha algo diferente de sim, o script se encerra.
+# Autora: Raquel Kuntz Oliveira
+
+# O clear limpa a tela
+clear
+
+# Pergunta ao usuário se o mesmo deseja saber a data atual
+echo "Você deseja saber a data atual? [s] "
+read RESPOSTA
+
+# Caso o usuário não digite 's' o script é encerrado
+test "$RESPOSTA" != "s" && exit
+
+# O date "+%d %B %Y" exibe a data atual do sistema
+echo "A data atual é:"
+date "+%d %B %Y"
+
+

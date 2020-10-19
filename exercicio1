@@ -1,0 +1,18 @@
+#!/bin/bash
+# exercicio 1 - script que exibe o nome do usuário logado, o diretório corrente e o manual do comando ls
+# Autora: Raquel Kuntz Oliveira
+
+# O whoami exibe o nome do usuário logado
+echo "Usuário logado:"
+whoami
+echo
+
+# O pwd exibe o diretório correte
+echo "Diretório corrente:"
+pwd
+echo
+
+# O man ls exibe o manual do comando ls
+echo "Manual do comando ls:"
+man ls
+

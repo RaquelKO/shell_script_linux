@@ -1,0 +1,31 @@
+#!/bin/bash
+# exercicio 6 - script que recebe 3 números e realiza a soma e a multiplicação entre eles e apresenta os resultados em tela
+# Autora: Raquel Kuntz Oliveira
+
+# Pede ao usuário o primeiro número
+echo "Digite o primeiro número:"
+read VALOR_A
+echo
+
+# Pede ao usuário o segundo número
+echo "Digite o segundo número:"
+read VALOR_B
+echo
+
+# Pede ao usuário o terceiro número
+echo "Digite o terceiro número:"
+read VALOR_C
+echo
+
+# Soma os três valores
+echo "A soma dos três números é igual a:"
+echo $(($VALOR_A+$VALOR_B+$VALOR_C))
+echo
+
+# Multiplica os três valores
+echo "A multiplicação dos três números é igual a:"
+echo $(($VALOR_A*$VALOR_B*$VALOR_C))
+
+
+
+

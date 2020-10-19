@@ -1,0 +1,17 @@
+#!/bin/bash
+# exercicio 7 - script que lê a base e altura de um retângulo e calcula seu perímetro
+# Autora: Raquel Kuntz Oliveira
+
+# Recebe o valor da base do retângulo
+echo "Qual a medida da base do retângulo?"
+read VALOR_BASE
+echo
+
+# Recebe o valor da altura do retângulo
+echo "Qual a medida da altura do retângulo?"
+read VALOR_ALTURA
+echo
+
+# Calcula e exibe em tela o valor do perímetro do retângulo
+echo "O perímetro do retângulo é igual a:"
+echo $((2*($VALOR_BASE+$VALOR_ALTURA)))

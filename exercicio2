@@ -1,0 +1,12 @@
+#!/bin/bash
+# exercicio2 - script que limpa a tela, exibe o diretório atual e todos os arquivos ocultos
+# Autora: Raquel Kuntz Oliveira
+
+# O clear limpa a tela
+clear
+
+# O ls -a exibe o diretório atual e todos os arquivos ocultos
+echo "Conteúdo do diretório atual incluindo todos os arquivos ocultos:"
+ls -a
+
+
